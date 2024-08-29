@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7989aac2cde4035449415294500cf1e5, type: 3}
+  m_Name: Foods
+  m_EditorClassIdentifier: 
+  ModelFoods:
+  - prefab: {fileID: 7489224112132096927, guid: bdd2cea8793135e4dbe4092814321b7a, type: 3}
+    totalCount: 10
+  - prefab: {fileID: -3057234298369462281, guid: 9f7105c96b2a1124398d8d88f0bfda06, type: 3}
+    totalCount: 14
+  - prefab: {fileID: 389502283728783477, guid: 4329bbadad2007f4bbc75c3bc86d4bf7, type: 3}
+    totalCount: 16
+  - prefab: {fileID: -8640842132897957331, guid: 1499a3182ab4e764c86f2ff597f43f5f, type: 3}
+    totalCount: 20
+  - prefab: {fileID: 8405130212932355217, guid: aaf66fd814b45304795c784d4584a406, type: 3}
+    totalCount: 22
+  - prefab: {fileID: 2743668706068241017, guid: a188d157c2a0ea24cb115e6b7bf9d18e, type: 3}
+    totalCount: 40
+  - prefab: {fileID: -8296217030772614346, guid: 41bf12cfda4ec5f45a63eb64ddd36d60, type: 3}
+    totalCount: 45

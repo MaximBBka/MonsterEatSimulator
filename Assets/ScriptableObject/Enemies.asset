@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fb16b2c09b959469071fefa5a114a4, type: 3}
+  m_Name: Enemies
+  m_EditorClassIdentifier: 
+  modelEnemies:
+  - Prefab: {fileID: 7244438555884248374, guid: f8d24c7717d7ad1479a3d1cf3cb8369e, type: 3}
+    Health: 0
+    Speed: 6
+    Scale: 1
+    PosY: 0
+    radiusEat: 1
+    ScoreTotal: 0
+    MaxTotal: 2000
+    index: 1
+    indexForLineRender: 1
+    TakeFood: 1
+    TimerBuff: 20
+  - Prefab: {fileID: 2068049169046300688, guid: 7f8dbe0238deeaa4a9e58a146c2c9e52, type: 3}
+    Health: 0
+    Speed: 5.5
+    Scale: 2
+    PosY: 0
+    radiusEat: 0.7
+    ScoreTotal: 0
+    MaxTotal: 5000
+    index: 2
+    indexForLineRender: 2
+    TakeFood: 1
+    TimerBuff: 15
+  - Prefab: {fileID: 3977493012732232007, guid: 07fd64cc211c5344daa877fd5f71de0c, type: 3}
+    Health: 0
+    Speed: 5.2
+    Scale: 2
+    PosY: 0
+    radiusEat: 1
+    ScoreTotal: 0
+    MaxTotal: 9000
+    index: 3
+    indexForLineRender: 3
+    TakeFood: 1
+    TimerBuff: 10
+  - Prefab: {fileID: 4435802045436505995, guid: e8699e276eeb06f44814b51d6fcd76e3, type: 3}
+    Health: 0
+    Speed: 4.8
+    Scale: 4
+    PosY: 0
+    radiusEat: 0.7
+    ScoreTotal: 0
+    MaxTotal: 15000
+    index: 4
+    indexForLineRender: 4
+    TakeFood: 1
+    TimerBuff: 10
+  - Prefab: {fileID: 5379252131600783269, guid: 2f1983ff37ebc0e42919fdeba86987e2, type: 3}
+    Health: 0
+    Speed: 4.2
+    Scale: 2
+    PosY: 0
+    radiusEat: 2
+    ScoreTotal: 0
+    MaxTotal: 25000
+    index: 5
+    indexForLineRender: 5
+    TakeFood: 1
+    TimerBuff: 10
+  - Prefab: {fileID: 7869415949225549871, guid: bcc1e829c78c7304dbb3af8aecb28115, type: 3}
+    Health: 0
+    Speed: 3.8
+    Scale: 2
+    PosY: 0
+    radiusEat: 2.5
+    ScoreTotal: 0
+    MaxTotal: 50000
+    index: 6
+    indexForLineRender: 6
+    TakeFood: 1
+    TimerBuff: 10
